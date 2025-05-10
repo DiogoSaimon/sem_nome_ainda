@@ -19,8 +19,9 @@ Este projeto começará inicialmente com:
 ## Segue aqui a arquitetura do projeto:
 
 - Esse projeto será dividido entre mobile e web, com repositórios divididos ambos usando Flutter;
+- O motivo disso é que a versão web pode conter algumas limitações da própria plataforma, e indentificando isso, teria a liberdade de ir para o React.
+- Inicialmente usarei Firebase Firestore como backend enquanto estudo essa stack.
 
-O motivo disso é que a versão web pode conter algumas limitações da própria plataforma, e indentificando isso, teria a liberdade de ir para o React.
 
 Foi usado o agente da Manus AI para ajudar nas referências de criação desse projeto, caso queira visualizar as sugestões, acesse a pasta <b>manus_ai_references<b>
 
