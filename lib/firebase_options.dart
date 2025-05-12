@@ -47,8 +47,8 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAvdAIMOnCiVOuqzRcEUPayhphDmuLTy4U',
-    appId: '1:161949604535:web:e2b63bd9ee44fda231cb32',
+    apiKey: String.fromEnvironment("WEB_API_KEY"),
+    appId: String.fromEnvironment("WEB_API_ID"),
     messagingSenderId: '161949604535',
     projectId: 'sem-nome-ainda-a569c',
     authDomain: 'sem-nome-ainda-a569c.firebaseapp.com',
@@ -57,16 +57,16 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBi6LHgEopKdMNGlgZTfKS-nzcTvKL1Ylc',
-    appId: '1:161949604535:android:04725b6e4c0465df31cb32',
+    apiKey: String.fromEnvironment("ANDROID_API_KEY"),
+    appId: String.fromEnvironment("ANDROID_API_ID"),
     messagingSenderId: '161949604535',
     projectId: 'sem-nome-ainda-a569c',
     storageBucket: 'sem-nome-ainda-a569c.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD6pbm3HNpTVmybfuVTN5uQ0biGhtqHSrk',
-    appId: '1:161949604535:ios:d9d5f5f932f3c5b531cb32',
+    apiKey: String.fromEnvironment("IOS_API_KEY"),
+    appId: String.fromEnvironment("IOS_API_ID"),
     messagingSenderId: '161949604535',
     projectId: 'sem-nome-ainda-a569c',
     storageBucket: 'sem-nome-ainda-a569c.firebasestorage.app',
